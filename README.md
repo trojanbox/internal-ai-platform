@@ -13,7 +13,7 @@
 - `packages/ui`：`radix-ui` + Lucide + CSS Modules
 - `packages/i18n`：i18next + react-i18next
 - Vitest + React Testing Library + Supertest + Playwright
-- Oxlint + Prettier + GitHub Actions
+- Oxlint + Prettier
 
 ## 快速开始
 
@@ -95,7 +95,6 @@ Compose 首次初始化会创建 internal_ai_platform_dev、internal_ai_platform
 - 国际化：`packages/i18n`
 - 数据库 Migration：`apps/api/drizzle`
 - 共置 Unit Test：各源码 Owner 旁的 `*.test.ts(x)`；跨层测试：`tests`
-- CI：`.github/workflows/ci.yml`
 
 ## 长期文档
 

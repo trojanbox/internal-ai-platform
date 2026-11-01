@@ -34,7 +34,6 @@
     "test:contracts": "pnpm --filter @repo/contracts test:unit",
     "test:e2e:debug": "pnpm test:e2e:prepare && playwright test --debug",
     "test:e2e:report": "playwright show-report",
-    "test:ci": "pnpm verify && pnpm test:e2e:chromium",
     "test:coverage": "pnpm test:unit:coverage && pnpm test:integration:coverage",
     "test:integration:coverage": "pnpm --filter @repo/api test:integration:coverage",
     "test:e2e:firefox": "pnpm test:e2e:prepare && playwright test --project=firefox",

@@ -209,16 +209,7 @@ Coverage：
 pnpm test:coverage
 ```
 
-## 7. CI 合同
-
-GitHub Actions 分为两个独立 Job：
-
-- `verify`：安装依赖后运行 `pnpm verify`；
-- `e2e`：安装 Chromium 及系统依赖，运行真实 Chromium E2E。
-
-E2E 失败时上传 Playwright 报告和测试结果，便于保留失败证据。
-
-## 8. 测试相关权威来源
+## 7. 测试相关权威来源
 
 | 主题                     | 权威来源                            |
 | ------------------------ | ----------------------------------- |
@@ -230,4 +221,3 @@ E2E 失败时上传 Playwright 报告和测试结果，便于保留失败证据�
 | Browser E2E              | `tests/e2e`、`playwright.config.ts` |
 | 测试库与 Redis reset     | `apps/api/scripts/reset-test-db.ts` |
 | Migration                | `apps/api/drizzle`                  |
-| CI Gate                  | `.github/workflows/ci.yml`          |
