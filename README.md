@@ -1,4 +1,4 @@
-# Fullstack Monorepo Template
+# internal-ai-platform
 
 这是一个可直接复制作为新项目起点的 React + NestJS 全栈 Monorepo 模板，内置登录注册、列表、详情、PostgreSQL Migration、Redis Session/限流、分层测试和 CI 基线。
 
@@ -98,6 +98,7 @@ Compose 首次初始化会创建 internal_ai_platform_dev、internal_ai_platform
 
 ## 长期文档
 
+- [产品需求与规划基线](docs/prd/README.md)
 - [系统架构与边界](docs/architecture.md)
 - [认证与安全模型](docs/authentication-and-security.md)
 - [测试策略与数据库生命周期](docs/testing-strategy.md)
