@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nest start --watch",
     "predev:e2e": "pnpm test:prepare",
-    "dev:e2e": "cross-env NODE_ENV=test DB_TEST_KIND=e2e PORT=3001 nest start",
+    "dev:e2e": "cross-env NODE_ENV=test DB_TEST_KIND=e2e PORT=3101 nest start",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/main.js",
     "typecheck": "tsc --noEmit -p tsconfig.json",

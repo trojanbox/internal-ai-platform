@@ -23,7 +23,7 @@ export default defineConfig({
   webServer: [
     {
       command: 'pnpm --filter @repo/api dev:e2e',
-      url: 'http://127.0.0.1:3001/api/v1/health',
+      url: 'http://127.0.0.1:3101/api/v1/health',
       reuseExistingServer: false,
       timeout: 120_000,
     },
