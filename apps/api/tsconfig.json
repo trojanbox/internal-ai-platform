@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": [
+    "src",
+    "scripts",
+    "drizzle.config.ts",
+    "vitest.unit.config.ts",
+    "vitest.integration.config.ts",
+    "../../tests/integration/api",
+    "../../tests/support/api"
+  ]
+}

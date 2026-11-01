@@ -1,0 +1,58 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgb(15 23 42 / 45%);
+}
+
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: min(520px, calc(100vw - 32px));
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--color-border, #d1d5db);
+  border-radius: 16px;
+  background: var(--color-bg-surface, #fff);
+  box-shadow: 0 24px 60px rgb(15 23 42 / 24%);
+  padding: 24px;
+}
+
+.title {
+  margin: 0;
+  color: var(--color-text-primary, #111827);
+  font-size: 20px;
+}
+
+.description {
+  margin: 8px 32px 0 0;
+  color: var(--color-text-secondary, #6b7280);
+}
+
+.body {
+  margin-top: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 8px;
+  color: var(--color-text-secondary, #6b7280);
+  background: transparent;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: var(--color-bg-muted, #f3f4f6);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--color-focus, #4f46e5);
+  outline-offset: 2px;
+}

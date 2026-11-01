@@ -1,0 +1,19 @@
+{
+  "appName": "Internal AI Platform",
+  "accountMenuLabel": "Open account menu",
+  "close": "Close",
+  "routeError": {
+    "title": "The page could not be loaded",
+    "back": "Back to list"
+  },
+  "errors": {
+    "INVALID_CREDENTIALS": "Invalid email or password",
+    "EMAIL_ALREADY_EXISTS": "This email is already registered",
+    "VALIDATION_ERROR": "The submitted data is invalid",
+    "UNAUTHENTICATED": "Your session has expired. Please sign in again",
+    "INVALID_CSRF_TOKEN": "Security validation failed. Refresh and try again",
+    "ITEM_NOT_FOUND": "Content not found",
+    "INTERNAL_ERROR": "The service is temporarily unavailable",
+    "UNKNOWN": "The operation failed. Please try again"
+  }
+}

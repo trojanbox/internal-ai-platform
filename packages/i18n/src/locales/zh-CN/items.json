@@ -1,0 +1,22 @@
+{
+  "eyebrow": "TEMPLATE CONTENT",
+  "title": "内容列表",
+  "description": "一个最小业务切片：鉴权后读取列表，再进入详情。",
+  "empty": "暂无内容",
+  "viewDetail": "查看详情 →",
+  "detail": "内容详情",
+  "back": "返回列表",
+  "template": {
+    "trigger": "模板说明",
+    "title": "前端 UI 基线",
+    "description": "复杂交互通过 packages/ui 封装 Radix Primitives。",
+    "bodyBeforePackage": "业务 Feature 不直接依赖 Radix。Dialog、Dropdown Menu、Tooltip 等交互原语统一由",
+    "bodyAfterPackage": "提供，视觉继续使用 CSS Modules 和 Design Token。"
+  },
+  "pagination": {
+    "label": "分页",
+    "status": "第 {{page}} 页 · 共 {{total}} 条",
+    "previous": "上一页",
+    "next": "下一页"
+  }
+}

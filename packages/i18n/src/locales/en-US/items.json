@@ -1,0 +1,22 @@
+{
+  "eyebrow": "TEMPLATE CONTENT",
+  "title": "Content list",
+  "description": "A minimal vertical slice: authenticate, load a list, then open a detail page.",
+  "empty": "No content yet",
+  "viewDetail": "View details →",
+  "detail": "Content details",
+  "back": "Back to list",
+  "template": {
+    "trigger": "Template notes",
+    "title": "Frontend UI baseline",
+    "description": "Complex interactions wrap Radix Primitives through packages/ui.",
+    "bodyBeforePackage": "Business features do not depend on Radix directly. Dialog, Dropdown Menu, Tooltip, and similar interaction primitives are provided by",
+    "bodyAfterPackage": "while visuals continue to use CSS Modules and Design Tokens."
+  },
+  "pagination": {
+    "label": "Pagination",
+    "status": "Page {{page}} · {{total}} total",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

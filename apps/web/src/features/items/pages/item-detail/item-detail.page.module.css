@@ -1,0 +1,35 @@
+.article {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 34px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.back {
+  display: inline-block;
+  margin-bottom: 28px;
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 700;
+}
+.eyebrow {
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+.article h1 {
+  margin: 10px 0 16px;
+  font-size: clamp(30px, 5vw, 46px);
+}
+.summary {
+  color: var(--text-muted);
+  font-size: 18px;
+  line-height: 1.7;
+}
+.content {
+  margin-top: 30px;
+  white-space: pre-line;
+  line-height: 1.9;
+}

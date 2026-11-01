@@ -1,0 +1,13 @@
+.page {
+  display: grid;
+  gap: 16px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.back {
+  width: fit-content;
+  color: var(--brand);
+  text-decoration: none;
+}

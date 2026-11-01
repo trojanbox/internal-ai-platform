@@ -1,0 +1,29 @@
+{
+  "name": "@repo/i18n",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "i18next": "26.4.2",
+    "react-i18next": "17.0.13"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "oxlint src",
+    "test:unit": "vitest run --config vitest.config.ts",
+    "test:unit:coverage": "vitest run --coverage --config vitest.config.ts"
+  },
+  "devDependencies": {
+    "oxlint": "1.82.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "6.0.2",
+    "@vitest/coverage-v8": "5.0.0",
+    "vitest": "5.0.0"
+  }
+}

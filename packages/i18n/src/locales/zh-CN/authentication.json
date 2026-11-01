@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "email": "邮箱",
+    "password": "密码",
+    "passwordHint": "密码至少 15 个字符"
+  },
+  "login": {
+    "title": "欢迎回来",
+    "description": "登录后查看示例列表与详情。",
+    "submit": "登录",
+    "switch": "还没有账号？去注册"
+  },
+  "register": {
+    "title": "创建账号",
+    "description": "创建账号后会自动登录。",
+    "submit": "注册",
+    "switch": "已经有账号？去登录"
+  },
+  "account": {
+    "title": "账户",
+    "logout": "退出登录"
+  }
+}

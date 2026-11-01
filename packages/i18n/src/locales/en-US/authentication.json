@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "Password must contain at least 15 characters"
+  },
+  "login": {
+    "title": "Welcome back",
+    "description": "Sign in to view the sample list and details.",
+    "submit": "Sign in",
+    "switch": "Need an account? Register"
+  },
+  "register": {
+    "title": "Create account",
+    "description": "You will be signed in after registration.",
+    "submit": "Register",
+    "switch": "Already have an account? Sign in"
+  },
+  "account": {
+    "title": "Account",
+    "logout": "Sign out"
+  }
+}

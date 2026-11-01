@@ -1,0 +1,61 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    opacity 140ms ease;
+}
+
+.root:focus-visible {
+  outline: 2px solid var(--color-focus, #4f46e5);
+  outline-offset: 2px;
+}
+
+.root:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.md {
+  min-height: 40px;
+  padding: 0 14px;
+}
+
+.sm {
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.primary {
+  color: var(--color-on-primary, #fff);
+  background: var(--color-primary, #4f46e5);
+}
+
+.secondary {
+  color: var(--color-text-primary, #111827);
+  border-color: var(--color-border, #d1d5db);
+  background: var(--color-bg-surface, #fff);
+}
+
+.ghost {
+  color: var(--color-text-primary, #111827);
+  background: transparent;
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--color-primary-hover, #4338ca);
+}
+
+.secondary:hover:not(:disabled),
+.ghost:hover:not(:disabled) {
+  background: var(--color-bg-muted, #f3f4f6);
+}

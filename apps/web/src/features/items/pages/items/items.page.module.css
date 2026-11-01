@@ -1,0 +1,53 @@
+.page {
+  display: grid;
+  gap: 26px;
+}
+.page header h1 {
+  margin: 6px 0 8px;
+  font-size: clamp(30px, 4vw, 42px);
+}
+.page header p {
+  margin: 0;
+  color: var(--text-muted);
+}
+.eyebrow {
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.header > div:first-child {
+  min-width: 0;
+}
+@media (max-width: 680px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.paginationControls {
+  display: flex;
+  gap: 16px;
+}
+.paginationControls a {
+  color: var(--brand);
+}
+.paginationControls [aria-disabled='true'] {
+  opacity: 0.5;
+}
