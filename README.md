@@ -100,6 +100,7 @@ Compose 首次初始化会创建 internal_ai_platform_dev、internal_ai_platform
 
 - [产品需求与规划基线](docs/prd/README.md)
 - [系统架构与边界](docs/architecture.md)
+- [分布式 Agent 目标架构（Pi Durable，未实现）](docs/distributed-agent-architecture.md)
 - [认证与安全模型](docs/authentication-and-security.md)
 - [测试策略与数据库生命周期](docs/testing-strategy.md)
 - [文档管理规范](docs/documentation-policy.md)

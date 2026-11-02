@@ -186,3 +186,7 @@ AccountModule 的 RedisSessionRepository 与 AuthRateLimitRepository 只保存�
 | UI Primitive     | `packages/ui`                                          |
 | 国际化资源       | `packages/i18n`                                        |
 | 测试可执行合同   | Unit / Integration / E2E / Architecture Test           |
+
+## 9. 分布式 Agent 目标架构（尚未实现）
+
+云端 Agent 的候选分布式运行架构单独维护在 [分布式 Agent 平台目标架构（Pi Durable）](./distributed-agent-architecture.md)，包含职责分层、Storage 所有权、Fencing、跨节点故障恢复及验证边界。该技术方案尚未落地，不能视为本文前述脚手架功能已实现。
