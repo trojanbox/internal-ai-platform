@@ -88,6 +88,8 @@ flowchart LR
     RT -.->|"订阅 / 重连补拉"| API
 ~~~
 
+为控制连线密度，图中 A1、B1 通向模型、工具、工作空间和实时流的连接为代表性示意；A2、B2 等其他 Harness 具备相同的调用能力，每个 Harness 均通过自身独立的逻辑 Storage 持久化状态。
+
 设计原则：
 
 1. Coordinator 不直接执行 LLM Round 或 Tool Call；Pi Durable 不进行全局跨节点调度。
